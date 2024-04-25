@@ -1,0 +1,14 @@
+{
+  "name": "lucky-winner-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js application to randomly select a lucky winner from a list of participants using Redis.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1"
+  }
+}
